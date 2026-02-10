@@ -7,51 +7,50 @@ Hiring data was available month-wise but lacked a consolidated view to track hir
 
 **Objective**
 To build an end-to-end hiring analytics dashboard that:
-Tracks hiring progression across stages
-Identifies drop-offs and bottlenecks
-Measures time spent in each stage
-Excludes non-active roles for accuracy
-Forecasts hiring completion timelines
+1. Tracks hiring progression across stages
+2. Identifies drop-offs and bottlenecks
+3. Measures time spent in each stage
+4. Excludes non-active roles for accuracy
 
 **Data Overview**
 Each record represents one job requisition with the following stages:
-Approved
-Sourcing Started
-Interview Started
-Interview Completed
-Offered
-Filled
+1. Approved
+2. Sourcing Started
+3. Interview Started
+4. Interview Completed
+5. Offered
+6. Filled
 _Additional attributes:_
-Business Unit
-Region
-Role
-Hiring Status
+7. Business Unit
+8. Region
+9. Role
+10. Hiring Status
 
 **Solution Design**
 
 **1. Data Preparation**
-Combined month-wise files using Power BI Folder Connector
-Standardized date formats and column names
-Created a single fact table at job-requisition level
+1. Combined month-wise files using Power BI Folder Connector
+2. Standardized date formats and column names
+3. Created a single fact table at job-requisition level
 **2. Data Modeling**
-Fact Table: Hiring
-Dimension Table: Stage_Lookup (Stage Name + Stage Order)
-Used stage ordering to ensure correct funnel sequencing
+1. Fact Table: Employee Hiring Data
+2. Dimension Table: Stage_Lookup (Stage Name + Stage Order)
+3. Used stage ordering to ensure correct funnel sequencing
 **3. Key Analytics Implemented**
-Hiring Funnel: Stage-wise job progression
-Drop-off Analysis: % roles failing to move to next stage
-Stage Aging: Average days spent in each hiring stage
-Operational Accuracy: Excluded on-hold roles from funnel
+1. Hiring Funnel: Stage-wise job progression
+2. Drop-off Analysis: % roles failing to move to next stage
+3. Stage Aging: Average days spent in each hiring stage
+4. Operational Accuracy: Excluded on-hold roles from funnel
 
 **Key Insights Enabled**
-Identified stages with maximum drop-offs
-Highlighted interview and offer delays
-Enabled proactive intervention by HR and recruiters
+1. Identified stages with maximum drop-offs
+2. Highlighted interview and offer delays
+3. Enabled proactive intervention by HR and recruiters
 
 **Tools Used**
-Power BI Desktop
-Power Query
-DAX (Measures & Calculated Columns)
+1. Power BI Desktop
+2. Power Query
+3. DAX (Measures & Calculated Columns)
 
 **Outcome**
 The dashboard transformed hiring reviews from static reporting to actionable pipeline optimization, enabling leadership to reduce time-to-fill and improve hiring efficiency.
