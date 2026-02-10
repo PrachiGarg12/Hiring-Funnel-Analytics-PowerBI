@@ -28,15 +28,17 @@ _Additional attributes:_
 
 **Solution Design**
 
-**1. Data Preparation**
+_**1. Data Preparation**_
 1. Combined month-wise files using Power BI Folder Connector
 2. Standardized date formats and column names
 3. Created a single fact table at job-requisition level
-**2. Data Modeling**
+   
+_**2. Data Modeling**_
 1. Fact Table: Employee Hiring Data
 2. Dimension Table: Stage_Lookup (Stage Name + Stage Order)
 3. Used stage ordering to ensure correct funnel sequencing
-**3. Key Analytics Implemented**
+   
+_**3. Key Analytics Implemented**_
 1. Hiring Funnel: Stage-wise job progression
 2. Drop-off Analysis: % roles failing to move to next stage
 3. Stage Aging: Average days spent in each hiring stage
@@ -53,4 +55,5 @@ _Additional attributes:_
 3. DAX (Measures & Calculated Columns)
 
 **Outcome**
+
 The dashboard transformed hiring reviews from static reporting to actionable pipeline optimization, enabling leadership to reduce time-to-fill and improve hiring efficiency.
