@@ -136,4 +136,15 @@ For a detailed overview of the dashboard, key metrics, visual analysis and busin
 
 [Download Recruitment Analytics Dashboard Documentation](Documentation/Power_BI_Recruitment_Analytics_Dashboard.pdf)
 
+## Dashboard Preview
+
+### 1. Recruitment Overview
+![Recruitment Overview](Screenshots/Recruitment_Overview.png)
+
+### 2. Time to Fill Analysis
+![Time to Fill Analysis](Screenshots/Time_to_Fill_Analysis.png)
+
+### 3. Historical Hiring Funnel
+![Historical Hiring Funnel](Screenshots/Historical_Hiring_Funnel.png)
+
 **Note:** This is a portfolio project developed to demonstrate Power BI and recruitment analytics capabilities. The findings are based on the available dataset and its recorded requisition updates.
