@@ -130,4 +130,10 @@ The dashboard provides a consolidated view of recruitment activity and helps HR 
 - `Documentation/` – Project overview and dashboard documentation (PDF prepared for portfolio presentation)
 ---
 
+## Project Documentation
+
+For a detailed overview of the dashboard, key metrics, visual analysis and business observations, refer to:
+
+[Download Recruitment Analytics Dashboard Documentation](Documentation/Power_BI_Recruitment_Analytics_Dashboard.pdf)
+
 **Note:** This is a portfolio project developed to demonstrate Power BI and recruitment analytics capabilities. The findings are based on the available dataset and its recorded requisition updates.
